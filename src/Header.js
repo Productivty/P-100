@@ -2,18 +2,21 @@ import React from "react";
 
 function Header() {
   return (
-    <div class="header">
-      <img src="../logo-image.png" alt="" className="logo-img" />
-      <h1>My Learning Journal</h1>
-      <div class="link">
+    <div className="header">
+      <h1 className="logo-title">Pradeep Thapa</h1>
+      <div className="link">
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html#intro">Home</a>
           </li>
           <li>
-            <a href="About me.html" target="_blank">
-              About Me
-            </a>
+            <a href="index.html#projects">Project</a>
+          </li>
+          <li>
+            <a href="index.html#blogs">Blogs</a>
+          </li>
+          <li>
+            <a href="index.html#about-me">About me</a>
           </li>
         </ul>
       </div>
